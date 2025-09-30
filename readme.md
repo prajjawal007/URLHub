@@ -147,6 +147,3 @@ Run the following command with correct `.env` set.
 npm run dev
 ```
 
-Now your backend will correctly be running either in `VPS` or in `localhost`
-
-```
