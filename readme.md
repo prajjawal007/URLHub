@@ -67,7 +67,6 @@ When a user accesses a short URL:
 - ✅ Distributed token generation using ZooKeeper
 - ✅ QR code generation for each short URL
 - ✅ Scalable microservices-ready backend
-- ✅ Frontend UI built with Next.js
 
 ---
 
@@ -76,14 +75,11 @@ When a user accesses a short URL:
 - ❌ Visit count tracking using Redis-backed queue
 - ❌ User authentication with JWT
 - ❌ Analytics dashboard per user
-- ❌ Bulk CSV upload for short URLs
-- ❌ Docker & Docker Compose support
+- ❌ Frontend for better visualization
 
 ---
 
 ## 🛠️ Setup Instructions
-
-### Frontend is hosted at `https://distro-url.vercel.app`
 
 ### 1. Prerequisites
 
@@ -95,7 +91,7 @@ When a user accesses a short URL:
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/alucard017/URLHub.git
+git clone https://github.com/prajjawal007/URLHub.git
 cd URLHub
 ```
 
@@ -121,7 +117,7 @@ Set up the environments correctly first using any of the two :
 - by editing the environment
 - by importing .env file from backend folder.
 
-Simply run this command on root directory(i.e not inside backend or frontend)
+Simply run this command on root directory(i.e not inside backend)
 
 ```
 docker-compose up --build -d
