@@ -10,7 +10,8 @@ RUN npm run build
 FROM node:23-alpine
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/uploads ./uploads
+# COPY --from=builder /app/uploads ./uploads
+RUN mkdir -p /app/uploads
 COPY package*.json ./
 RUN npm install --omit=dev
 EXPOSE 8080
