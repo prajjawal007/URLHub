@@ -10,7 +10,7 @@
         output: -
 
      scenarios: (100.00%) 1 scenario, 150 max VUs, 1m30s max duration (incl. graceful stop):
-              * default: 150 looping VUs for 1m0s (gracefulStop: 30s)
+              * default: 150 looping VUs for 1m0s (gracefulStop: 30s) --
 
 
 
